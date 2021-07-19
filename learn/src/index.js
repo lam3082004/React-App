@@ -8,14 +8,17 @@ import Book from './Book'
 
 function Booklist() {
    return (
-      <section className="Booklist">
-         {
-            lam.map((book, index) => {
-               return <Book book={book.id} {...book}></Book>;
+      <>
+         <img src="lam.png" />
+         <section className="Booklist">
+            {
+               lam.map((book, index) => {
+                  return <Book book={book.id} {...book}></Book>;
+               }
+               )
             }
-            )
-         }
-      </section>
+         </section>
+      </>
    );
 }
 

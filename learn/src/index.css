@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: rgb(9, 15, 55); */
+    background-color: rgb(37, 119, 124);
+    /* background-image: url("lam.png"); */
+
 }
 
 body{
@@ -26,18 +28,20 @@ body{
 }
 
 .book{
-    background-color: #fff;
+    background-color: rgb(179, 127, 63);
     border-radius: 1rem;    
     padding: 1rem 2rem;
-}
-
-.book h3 {
-    color: #617d98;
-    font-size:  0.7rem;
-    margin-top: 0.25rem;
-
+    line-height:20px;
 }
 
 book p {
     margin-top:0.5rem;
+}
+
+
+.family h1{
+    background-color: aqua;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
